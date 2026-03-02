@@ -6,7 +6,7 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [activation.env]
-PATH = "$HOME/populationgenomics/software/relate/bin:$HOME/populationgenomics/software/relate/scripts:$HOME/populationgenomics/software/relate/scripts/TreeView:$PATH"
+PATH = "$HOME/populationgenomics/software/relate/bin:$HOME/populationgenomics/software/relate/scripts/DetectSelection:$HOME/populationgenomics/software/relate/scripts/EstimatePopulationSize:$HOME/populationgenomics/software/relate/scripts/EstimatePopulationSizeSGE:$HOME/populationgenomics/software/relate/scripts/PrepareInputFiles:$HOME/populationgenomics/software/relate/scripts/RelateLSF:$HOME/populationgenomics/software/relate/scripts/RelateParallel:$HOME/populationgenomics/software/relate/scripts/RelateSGE:$HOME/populationgenomics/software/relate/scripts/RelateSlurm:$HOME/populationgenomics/software/relate/scripts/SampleBranchLengths:$HOME/populationgenomics/software/relate/scripts/TreeView:$PATH"
 
 [tasks]
 
@@ -21,4 +21,6 @@ vscodenb = ">=0.1.34,<0.2"
 r-essentials = ">=4.5,<5"
 tskit = ">=1.0.1,<2"
 cairosvg = ">=2.8.2,<3"
+bcftools = ">=1.22,<2"
+r-gridextra = ">=2.3,<3"
 
